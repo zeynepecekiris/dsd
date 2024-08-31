@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="custom-select">
+        <div class="selected-option">
+          <img src="canada.jpg" alt="CAD" />
+          <span>CAD</span>
+        </div>
+        <div class="options-container">
+          <div class="option" data-value="TRY">
+            <img src="turkish.jpg" alt="TL" />
+            <span>TL</span>
+          </div>
+          <div class="option" data-value="USD">
+            <img src="4ff736715682f408b3683cbc89c8e166.jpg" alt="USD" />
+            <span>USD</span>
+          </div>
+          <div class="option" data-value="JPY">
+            <img src="japan.jpg" alt="JPY" />
+            <span>JPY</span>
+          </div>
+          <!-- Diğer seçenekler için benzer yapılar -->
+        </div>
+      </div>
+      
+      <!-- Gizli select elementini ekleyin -->
+      <select id="currencySecond" style="display:none;">
+        <option value="TRY" selected>TL</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <!-- Diğer seçenekler -->
+      </select>
+      
+    <script src="js.js">
+    </script>
+</body>
+</html>

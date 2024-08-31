@@ -1,0 +1,24 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+    margin: 0;
+}
+
+.selected-option {
+    margin-top: 50px; /* Bayrağı 50 piksel aşağıya çeker */
+    display: inline-block;
+  }
+
+  .option {
+    display: flex;
+    align-items: center; /* Dikeyde ortalar */
+    justify-content: flex-start; /* Yatayda sola hizalar */
+    padding: 10px;
+  }
+
+  custom-select{
+    font-size: 15px;
+  }
